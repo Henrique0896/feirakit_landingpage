@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
-import print from '../../../public/assets/print1.png';
+import home from '../../../public/assets/home.jpg';
+import comprarProduto from '../../../public/assets/comprarProduto.jpg';
 import { SectionStepText } from './sectionStep';
 
 export function BuyProduct() {
@@ -23,11 +24,17 @@ export function BuyProduct() {
           can use the following buttons:"
       />
 
-      <div className="flex w-full lg:w-1/2 md:w-1/2 justify-center self-center">
+      <div className="flex w-full  lg:w-1/2 md:w-1/2 justify-center ">
         <Image
-          src={print}
+          src={home}
           alt="print do aplicativo"
-          className="lg:h-[32vw] lg:w-[32vw] object-cover md:w-[46vw] md:h-[46vw] 
+          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
+           sm:w-[70vw] sm:h-[70vw]"
+        />
+        <Image
+          src={comprarProduto}
+          alt="print do aplicativo"
+          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
            sm:w-[70vw] sm:h-[70vw]"
         />
       </div>

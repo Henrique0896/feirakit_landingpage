@@ -30,8 +30,12 @@ export function Hero() {
     <section className="h-[38rem]  bg-blue-300 bg-hero-pattern  bg-center bg-cover  bg-no-repeat bg-blend-multiply animate-slidein [--slidein-delay:300ms] opacity-0">
       <div className="flex flex-col px-16 py-12 bg-gradient-to-b from-white/25 to-blue-900/50 bg-opacity-25  h-full">
         <nav className="flex flex-row  text-white w-full justify-between px-2 h-16 items-center">
-          <div className="  border-2 border-r-0 border-b-0">
-            <Image src={logo} alt="logo feira kit" className="w-52" />
+          <div className=" border-2 border-r-0 border-b-0">
+            <Image
+              src={logo}
+              alt="logo feira kit"
+              className="w-[90px] sm:w-[90px] lg:w-52 md:lg:w-52"
+            />
           </div>
           <div className="flex flex-row gap-6 h-full ">
             {links.map((item) => (
@@ -49,7 +53,7 @@ export function Hero() {
           </div>
         </nav>
 
-        <div className="w-1/2 flex flex-col self-end h-full gap-6  justify-center animate-slidein [--slidein-delay:500ms] opacity-0">
+        <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col self-end h-full gap-6  justify-center animate-slidein [--slidein-delay:500ms] opacity-0">
           <div className="flex flex-col gap-2">
             <h1 className="text-5xl text-white font-bold text-pretty border-r-8 rounded-r-md leading-tight">
               O que é o Feira-kit e como usá-lo?

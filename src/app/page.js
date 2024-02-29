@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="">
       <Hero />
-      <div id="HowToUse py-2">
+      <div id="HowToUse" className="py-2">
         <SectionSeparator title={'Cadastro de usuário'} />
         <Register />
         <SectionSeparator title={'Usando o app'} />

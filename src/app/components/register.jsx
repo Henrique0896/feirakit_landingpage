@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
-import print from '../../../public/assets/print1.png';
+import cadastro1 from '../../../public/assets/cadastro.jpg';
+import cadastro2 from '../../../public/assets/cadastro2.jpg';
 import { SectionStepText } from './sectionStep';
 
 export function Register() {
@@ -11,9 +12,15 @@ export function Register() {
     >
       <div className="flex w-full lg:w-1/2 md:w-1/2 justify-center ">
         <Image
-          src={print}
+          src={cadastro1}
           alt="print do aplicativo"
-          className="lg:h-[32vw] lg:w-[32vw] object-cover md:w-[46vw] md:h-[46vw] 
+          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
+           sm:w-[70vw] sm:h-[70vw]"
+        />
+        <Image
+          src={cadastro2}
+          alt="print do aplicativo"
+          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
            sm:w-[70vw] sm:h-[70vw]"
         />
       </div>
