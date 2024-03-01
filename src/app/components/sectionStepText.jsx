@@ -6,7 +6,7 @@ export function SectionStepText(props) {
     <div
       className={`sm:w-full lg:w-1/2 md:w-1/2 py-20  ${props.TextFirst && 'self-start'}`}
     >
-      <Header size="huge">{props.title}</Header>
+      {props.title && <Header size="huge">{props.title}</Header>}
       <p className="py-4 text-lg">{props.p1}</p>
       <p className="py-4 text-lg">{props?.p2}</p>
     </div>
