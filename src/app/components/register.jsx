@@ -12,7 +12,7 @@ export function Register() {
     >
       <SectionStepImages image1={cadastro1} image2={cadastro2} />
       <SectionStepText
-        title="Cadastrar usuário"
+        title="Como Cadastrar usuário:"
         p1="Carlio brand is one of the most reliable motor oil manufacturers,
           which is engaged in the production of high quality products with a
           history of more than decades in the industry. In order to get more

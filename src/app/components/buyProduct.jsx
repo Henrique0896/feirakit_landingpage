@@ -11,7 +11,7 @@ export function BuyProduct() {
       bg-blue-50 justify-center items-center w-full animate-slidein [--slidein-delay:800ms] opacity-0"
     >
       <SectionStepText
-        title="Como comprar um produto"
+        title="Como comprar um produto:"
         p1="Carlio brand is one of the most reliable motor oil manufacturers,
           which is engaged in the production of high quality products with a
           history of more than decades in the industry. In order to get more
