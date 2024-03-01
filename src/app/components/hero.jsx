@@ -10,11 +10,11 @@ export function Hero() {
       description: 'Como Usar',
       href: '#HowToUse'
     },
-    {
-      key: 1,
-      description: 'sobre o projeto',
-      href: '#HowToUse'
-    },
+    // {
+    //   key: 1,
+    //   description: 'sobre o projeto',
+    //   href: '#HowToUse'
+    // },
     {
       key: 2,
       description: 'Conheça o F.S.V.J.',
@@ -22,7 +22,7 @@ export function Hero() {
     },
     {
       key: 3,
-      description: 'Teste o software',
+      description: 'Teste o aplicativo',
       href: 'https://expo.dev/accounts/feirakitapp/projects/feirakit-app/builds/6cfc8d71-d97e-4b97-a135-a22a86065726'
     }
   ];
