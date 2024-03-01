@@ -1,4 +1,3 @@
-'use client';
 import cadastro1 from '../../../public/assets/cadastro.jpg';
 import cadastro2 from '../../../public/assets/cadastro2.jpg';
 import { SectionStepText } from './sectionStepText';
@@ -13,16 +12,8 @@ export function Register() {
       <SectionStepImages image1={cadastro1} image2={cadastro2} />
       <SectionStepText
         title="Como Cadastrar usuário:"
-        p1="Carlio brand is one of the most reliable motor oil manufacturers,
-          which is engaged in the production of high quality products with a
-          history of more than decades in the industry. In order to get more
-          information about other aspects and products of the Carlio brand, you
-          can use the following buttons:"
-        p2="Carlio brand is one of the most reliable motor oil manufacturers,
-          which is engaged in the production of high quality products with a
-          history of more than decades in the industry. In order to get more
-          information about other aspects and products of the Carlio brand, you
-          can use the following buttons:"
+        p1="Para realizar seu cadastro no Feira Kit, basta iniciar o Aplicativo, a tela de cadastro será aberta e nela o usuário vai preencher os campos de entrada com suas informações: Nome Completo, e-mail e Número de seu Telefone Celular. Após isso, o usuário vai criar uma senha para ser usada no App, e logo após, clicar em “Continuar” para ir para o próximo passo do cadastro."
+        p2="Para finalizar seu cadastro no Feira Kit, o Usuário deverá fornecer suas informações de Endereço, preenchendo os campos referentes a seu CEP, Estado, Cidade, Bairro, Rua e Complemento, feito isso, o Usuário irá aceitar nossos Termos e Condições e nossa Política de Privacidade clicando em “Aceito”. Depois de concluir todos os passos de cadastro, clicando em “Cadastrar” sua conta está oficialmente criada, podendo ser acessada com seu email e senha criados anteriormente."
       />
     </section>
   );
