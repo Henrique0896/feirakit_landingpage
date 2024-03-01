@@ -1,8 +1,8 @@
 'use client';
-import Image from 'next/image';
 import home from '../../../public/assets/home.jpg';
 import comprarProduto from '../../../public/assets/comprarProduto.jpg';
-import { SectionStepText } from './sectionStep';
+import { SectionStepText } from './sectionStepText';
+import { SectionStepImages } from './sectionStepImages';
 
 export function BuyProduct() {
   return (
@@ -23,21 +23,7 @@ export function BuyProduct() {
           information about other aspects and products of the Carlio brand, you
           can use the following buttons:"
       />
-
-      <div className="flex w-full  lg:w-1/2 md:w-1/2 justify-center ">
-        <Image
-          src={home}
-          alt="print do aplicativo"
-          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
-           sm:w-[70vw] sm:h-[70vw]"
-        />
-        <Image
-          src={comprarProduto}
-          alt="print do aplicativo"
-          className="lg:h-[32vw] lg:w-[32vw] object-contain md:w-[46vw] md:h-[46vw] 
-           sm:w-[70vw] sm:h-[70vw]"
-        />
-      </div>
+      <SectionStepImages image1={home} image2={comprarProduto} />
     </section>
   );
 }
