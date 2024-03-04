@@ -42,7 +42,7 @@ export function Hero() {
               <Link
                 key={item.key}
                 href={item.href}
-                className="flex visited:text-white capitalize  
+                className="flex text-white visited:text-white capitalize  
               items-center text-xs md:text-xl  hover:md:bg-blue-100  hover:bg-opacity-50
              hover:md:text-blue-900 transition-all duration-200 px-1 md:px-2"
                 target={item.href.includes('http') ? '_blank' : ''}
